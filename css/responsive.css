@@ -1,0 +1,131 @@
+@media screen and (max-width : 800px){
+  .mobile-menu .lines {
+ border-bottom: 14px double #f8f8f8;
+border-top: 5px solid #f8f8f8;
+content: "";
+height: 5px;
+width: 20px;
+padding-right: 10px;
+float: right;
+}
+
+#image{
+width:100%;	
+}
+
+#menu li a{
+	padding: 30px 9px;
+	font-size: 14px;
+}
+
+	.mobile-menu ul {
+	position: absolute;
+	display: none;
+	width: 100%;
+	text-align: center;
+	background-color: #07061d;
+	}
+	.mobile-menu li {
+		margin-bottom: 1px;
+	}
+
+	.mobile-menu ul li, .mobile-menu li a {
+		width: 100%;
+	}
+
+	.mobile-menu .show-menu {
+		display:block;
+	}
+	
+	.mobile-menu li a{
+		padding:10px 0;
+	}
+}
+
+@media screen and (max-width :768px){	
+	.user_information{
+		margin-top: 1em;
+		width: 100%;
+	}
+	
+	.degree_flex img{
+		width:100%;
+	}
+	.degree_flex{
+		display:block;
+	}
+		#menu li{
+		display: block;
+	}
+	
+	.main_header h2{
+		font-size:20px;
+	}
+	
+	.quiz_page{
+	width:100%;	
+	}
+	
+	.left_degree , .right_degree{
+  width: 100%;
+  margin-left: 0;
+}
+ 
+.degree_flex h2 {
+  font-size: 20px;
+}
+
+.right_degree{
+	text-align:left;
+}
+	#menu li a{
+		padding: 13px 0;
+	}
+	#menu{
+		width:100%;
+	}
+	
+	.user_information h2{
+		font-size: 38px;
+		line-height: 35px;
+	}
+	
+	.user_image{
+		width: 70%;
+margin-top: 10%;
+	}
+	
+	.flex {
+  display: block;
+}
+
+.textbox , .textarea{
+	width: 93%;
+}
+
+.contact_form {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact_ .user_information {
+  width: 100%;
+}
+
+.user_infor{
+	width: 100%;
+padding-left: 0;
+}
+
+.main_header {
+  padding: 2em 30px;
+}
+
+.mobile-menu img {
+  float: left;
+  width: 150px;
+  margin-top: 7px;
+  margin-left: 0;
+}
+}
+
